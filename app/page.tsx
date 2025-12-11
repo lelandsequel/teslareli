@@ -1,6 +1,8 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 type PillProps = {
   label: string;
@@ -131,6 +133,16 @@ export default function Page() {
                 real-time network health, predicts congestion and outages, and
                 ranks work so teams fix what hurts drivers the most.
               </p>
+
+              <div className="mt-6 flex flex-wrap gap-4">
+                <Link
+                  href="/dashboard"
+                  className="inline-flex items-center gap-2 rounded-lg bg-sky-500 px-5 py-2.5 text-sm font-semibold text-white hover:bg-sky-400 transition-colors shadow-lg shadow-sky-500/20"
+                >
+                  Launch Live Demo
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
             </div>
 
             <div className="grid gap-3 text-xs text-slate-300 md:grid-cols-3">
