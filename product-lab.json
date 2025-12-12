@@ -1,23 +1,24 @@
 {
-  "name": "TeslaReli — Supercharger Reliability Cockpit",
-  "slug": "teslareli",
-  "company": "Tesla (hypothetical)",
-  "summary": "Internal reliability cockpit for Tesla’s Supercharger and fleet operations teams, surfacing network health, forecasting congestion, and ranking maintenance by customer impact.",
-  "role": "Product Manager",
-  "timeframe": "Portfolio project, 2025",
-  "liveUrl": "https://teslareli.com",
-  "repoUrl": "https://github.com/lelandsequel/teslareli",
-  "status": "live",
-  "tags": [
-    "product-lab",
-    "internal-tool",
-    "ops",
-    "reliability",
-    "tesla"
-  ],
-  "tech": [
-    "Next.js",
-    "TypeScript",
-    "Tailwind CSS"
-  ]
+    "name": "TeslaReli — Supercharger Reliability Cockpit",
+    "slug": "teslareli",
+    "company": "Tesla (hypothetical)",
+    "year": 2025,
+    "summary": "Internal reliability cockpit for Tesla’s Supercharger and fleet operations teams. Surfaces network health, forecasts congestion, and ranks maintenance work by customer impact.",
+    "role": "Product Manager",
+    "timeframe": "Portfolio project, 2025",
+    "liveUrl": "https://teslareli.com",
+    "repoUrl": "https://github.com/lelandsequel/teslareli",
+    "status": "live",
+    "tags": [
+        "internal-tool",
+        "ops",
+        "reliability",
+        "tesla",
+        "product-lab"
+    ],
+    "tech": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS"
+    ]
 }
