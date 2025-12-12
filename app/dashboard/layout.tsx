@@ -56,8 +56,8 @@ export default function DashboardLayout({
                                 key={item.href}
                                 href={item.href}
                                 className={`group flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-all ${isActive
-                                        ? "bg-sky-500/10 text-sky-400"
-                                        : "text-slate-400 hover:bg-slate-900 hover:text-slate-200"
+                                    ? "bg-sky-500/10 text-sky-400"
+                                    : "text-slate-400 hover:bg-slate-900 hover:text-slate-200"
                                     }`}
                             >
                                 <item.icon className={`h-4 w-4 ${isActive ? "text-sky-400" : "text-slate-500 group-hover:text-slate-300"}`} />
@@ -92,6 +92,12 @@ export default function DashboardLayout({
                     </div>
 
                     <div className="flex items-center gap-4">
+                        <Link
+                            href="/case-study"
+                            className="text-sm font-bold text-slate-300 hover:text-white transition-colors"
+                        >
+                            Case Study
+                        </Link>
                         <div className="relative">
                             <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-slate-500" />
                             <input
