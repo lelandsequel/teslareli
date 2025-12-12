@@ -1,0 +1,26 @@
+{
+    "title": "TeslaGrid",
+    "tagline": "Reliability cockpit for Tesla's Supercharger network and fleet operations",
+    "company": "Tesla (Concept Case Study)",
+    "year": "2025",
+    "role": "Product Engineer",
+    "problem": "Managing global charging infrastructure requires real-time visibility into hardware health, localized demand spikes, and technician dispatch prioritization. Existing tools separated alert monitoring from workflow management.",
+    "description": [
+        "TeslaGrid is a unified reliability cockpit designed for network operations centers (NOCs).",
+        "It combines real-time telemetry from superchargers with predictive demand forecasting.",
+        "The interface prioritizes Work Orders based on customer impact, ensuring high-traffic stations are repaired first."
+    ],
+    "impact": [
+        "Unified 'Network Health' view replacing 3 disparate monitoring tools.",
+        "Predictive capacity modeling reduces wait-time spikes during holiday travel.",
+        "Streamlined technician dispatch workflow."
+    ],
+    "tags": [
+        "IoT dashboard",
+        "Real-time Data",
+        "Fleet Ops",
+        "Internal Tools"
+    ],
+    "liveUrl": "https://teslareli.com",
+    "repoUrl": "https://github.com/lelandsequel/teslareli"
+}
