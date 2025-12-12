@@ -1,24 +1,20 @@
 {
-  "name": "TeslaReli — Supercharger Reliability Cockpit",
-  "slug": "teslareli",
+  "title": "TeslaReli — Supercharger Reliability Cockpit",
+  "tagline": "Reliability intelligence for Tesla’s Supercharger and fleet operations.",
   "company": "Tesla (Hypothetical)",
-  "year": 2025,
-  "summary": "Internal reliability cockpit for Tesla’s Supercharger and fleet operations teams. Surfaces network health, forecasts congestion, and ranks maintenance work by customer impact so drivers experience fewer surprises at the plug.",
-  "role": "Product Manager",
-  "timeframe": "Portfolio project, 2025",
+  "role": "Product Management & Systems Architecture",
+  "problem": "Supercharger outages and peak-time congestion reduce driver satisfaction and increase operational firefighting for regional service teams.",
+  "impact": [
+    "Improved uptime visibility through real-time health monitoring of Supercharger stations.",
+    "Predictive congestion modeling to optimize load balancing across a region.",
+    "Prioritized maintenance recommendations ranked by customer impact."
+  ],
+  "year": "2025",
   "liveUrl": "https://teslareli.com",
   "repoUrl": "https://github.com/lelandsequel/teslareli",
-  "status": "live",
-  "tags": [
-    "Reliability",
-    "Internal Tools",
-    "Operations",
-    "Tesla",
-    "product-lab"
-  ],
-  "tech": [
-    "Next.js",
-    "TypeScript",
-    "Tailwind CSS"
+  "tags": ["Reliability", "Internal Tools", "Operations", "Tesla"],
+  "description": [
+    "TeslaReli is an internal cockpit designed for Tesla’s charging infrastructure and fleet operations teams.",
+    "It centralizes Supercharger network health, predictive congestion modeling, and maintenance prioritization into a single operational pane of glass."
   ]
 }
